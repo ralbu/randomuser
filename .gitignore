@@ -102,11 +102,13 @@ publish/
 *.Publish.xml
 
 # NuGet Packages Directory
-#packages*
-#!packages/Microsoft.Bcl.Build.1.0.14/
-#packages/Microsoft.Bcl.Build.1.0.14/*
-#packages/Microsoft.Bcl.Build.1.0.14/tools/*
-#!packages/Microsoft.Bcl.Build.1.0.14/tools/
+# ignore all files and folders in packages
+packages/*
+# exclude this folder
+!packages/Microsoft.Bcl.Build.1.0.14/
+packages/Microsoft.Bcl.Build.1.0.14/*
+!packages/Microsoft.Bcl.Build.1.0.14/tools/
+packages/Microsoft.Bcl.Build.1.0.14/tools/*
 !packages/Microsoft.Bcl.Build.1.0.14/tools/Microsoft.Bcl.Build.targets
 
 
