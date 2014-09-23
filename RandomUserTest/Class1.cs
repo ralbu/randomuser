@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using RandomUser;
 using Xunit;
 
 namespace RandomUserTest
@@ -14,8 +13,8 @@ namespace RandomUserTest
         public void Abc()
         {
            Assert.True(true); 
-            User user = new User();
-            user.Random();
+//            User user = new User();
+//            user.Random();
 
 //            User.Random(); implment this
         }
