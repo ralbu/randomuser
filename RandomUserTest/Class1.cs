@@ -2,17 +2,17 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Xunit;
+//using Xunit;
 
 namespace RandomUserTest
 {
     public class Class1
     {
 
-        [Fact]
+//        [Fact]
         public void Abc()
         {
-           Assert.True(true); 
+//           Assert.True(true); 
 //            User user = new User();
 //            user.Random();
 
