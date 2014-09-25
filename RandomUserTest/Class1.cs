@@ -12,7 +12,7 @@ namespace RandomUserTest
         [Fact]
         public void Abc()
         {
-//           Assert.True(true); 
+            Assert.True(true);
 //            User user = new User();
 //            user.Random();
 
