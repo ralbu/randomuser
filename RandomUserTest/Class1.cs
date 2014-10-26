@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using Xunit;
 
 namespace RandomUserTest
@@ -16,7 +17,11 @@ namespace RandomUserTest
 //            User user = new User();
 //            user.Random();
 
-//            User.Random(); implment this
+//            await User.RandomAsync();
+
+
+
+
         }
     }
 }
