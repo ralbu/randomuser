@@ -9,15 +9,19 @@ namespace RandomUser
 {
     public class User
     {
+        public string Name { get; set; }
+
         public void Random()
         {
             HttpClient client = new HttpClient();
 
         }
 
-        public static async Task RandomAsync()
+        public static async Task<User> RandomAsync()
         {
             await Task.Delay(0);
+
+            return new User {Name = "user name"};
         }
     }
 }

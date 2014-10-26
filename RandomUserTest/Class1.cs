@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using RandomUser;
 using Xunit;
 
 namespace RandomUserTest
@@ -11,17 +12,23 @@ namespace RandomUserTest
     {
 
         [Fact]
-        public void Abc()
+        public async Task Abc()
         {
             Assert.True(true);
 //            User user = new User();
 //            user.Random();
 
-//            await User.RandomAsync();
+            var user = await User.RandomAsync();
+            Assert.Equal("user name", user.Name);
 
 
 
+        }
 
+        [Fact]
+        public void ATest()
+        {
+            Assert.True(true);
         }
     }
 }
