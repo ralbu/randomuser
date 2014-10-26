@@ -11,6 +11,12 @@ namespace RandomUser
     {
         public string Name { get; set; }
 
+
+        internal static User Create(string json)
+        {
+            return new User();
+        }
+
         public void Random()
         {
             HttpClient client = new HttpClient();

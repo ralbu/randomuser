@@ -8,7 +8,7 @@ using Xunit;
 
 namespace RandomUserTest
 {
-    public class Class1
+    public class IntegrationTest
     {
 
         [Fact]
@@ -20,6 +20,8 @@ namespace RandomUserTest
 
             var user = await User.RandomAsync();
             Assert.Equal("user name", user.Name);
+
+//            RandomUser.GetUserAsync();
 
 
 
