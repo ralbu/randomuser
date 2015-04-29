@@ -15,6 +15,9 @@ random
 ralbu
 [![Build status](https://ci.appveyor.com/api/projects/status/github/ralbu/randomuser)](https://ci.appveyor.com/api/projects/status/github/ralbu/randomuser)
 
+SVG github
+[![Build status](https://ci.appveyor.com/api/projects/status/github/ralbu/randomuser?svg=true)](https://ci.appveyor.com/api/projects/status/github/ralbu/randomuser)
+
 
 https://github.com/ralbu/randomuser
 
