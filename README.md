@@ -17,3 +17,8 @@ ralbu
 
 
 https://github.com/ralbu/randomuser
+
+From appveyor link
+
+
+[![Build status](https://ci.appveyor.com/api/projects/status/7j7n2g3rq61ycwc9?svg=true)](https://ci.appveyor.com/project/RuslanAlbu/randomuser)
