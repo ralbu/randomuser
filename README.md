@@ -20,5 +20,10 @@ https://github.com/ralbu/randomuser
 
 From appveyor link
 
-
 [![Build status](https://ci.appveyor.com/api/projects/status/7j7n2g3rq61ycwc9?svg=true)](https://ci.appveyor.com/project/RuslanAlbu/randomuser)
+
+Retina
+[![Build status](https://ci.appveyor.com/api/projects/status/7j7n2g3rq61ycwc9?retina=true)](https://ci.appveyor.com/project/RuslanAlbu/randomuser)
+
+No svg
+[![Build status](https://ci.appveyor.com/api/projects/status/7j7n2g3rq61ycwc9)](https://ci.appveyor.com/project/RuslanAlbu/randomuser)
