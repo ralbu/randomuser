@@ -6,9 +6,13 @@ https://ci.appveyor.com/api/projects/status/github/gruntjs/grunt?branch=master&s
 
 just random
 
-https://ci.appveyor.com/api/projects/status/github/randomuser
+
+[![Build status](https://ci.appveyor.com/api/projects/status/3mmmskfrqt74aijh/branch/v2?svg=true)](https://ci.appveyor.com/project/SpecFlow/specflow/branch/v2)
+[![Build status](https://ci.appveyor.com/api/projects/status/github/randomuser)](https://ci.appveyor.com/api/projects/status/github/randomuser)
+
 
 ralbu
-https://ci.appveyor.com/api/projects/status/github/ralbu/randomuser
+[![Build status](https://ci.appveyor.com/api/projects/status/github/ralbu/randomuser)](https://ci.appveyor.com/api/projects/status/github/ralbu/randomuser)
+
 
 https://github.com/ralbu/randomuser
