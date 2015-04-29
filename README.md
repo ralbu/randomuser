@@ -8,6 +8,7 @@ just random
 
 
 [![Build status](https://ci.appveyor.com/api/projects/status/3mmmskfrqt74aijh/branch/v2?svg=true)](https://ci.appveyor.com/project/SpecFlow/specflow/branch/v2)
+random
 [![Build status](https://ci.appveyor.com/api/projects/status/github/randomuser)](https://ci.appveyor.com/api/projects/status/github/randomuser)
 
 
