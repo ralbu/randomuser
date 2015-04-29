@@ -1,3 +1,7 @@
+# Random User Generator
+
+Random User is a free API for generating random user data. It uses the [api.randomuser.me](http://api.randomuser.me) to get the data.
+
 randomuser
 ==========
 https://ci.appveyor.com/api/projects/status/{github|bitbucket}/{repository}
@@ -30,3 +34,10 @@ Retina
 
 No svg
 [![Build status](https://ci.appveyor.com/api/projects/status/7j7n2g3rq61ycwc9)](https://ci.appveyor.com/project/RuslanAlbu/randomuser)
+
+
+[![Build status](https://ci.appveyor.com/api/projects/status/7j7n2g3rq61ycwc9?svg=true)](https://ci.appveyor.com/project/RuslanAlbu/randomuser)
+
+
+No link
+[![Build status](https://ci.appveyor.com/api/projects/status/7j7n2g3rq61ycwc9?svg=true)]()
