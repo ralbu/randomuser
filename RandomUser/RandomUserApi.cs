@@ -11,7 +11,7 @@ namespace RandomUser
         /// Get a random user from http://api.randomuser.me
         /// </summary>
         /// <returns>Returns a random user.</returns>
-        public static async Task<Use> GetUser()
+        public static async Task<User> GetUser()
         {
             using (var httpClient = new HttpClient())
             {
