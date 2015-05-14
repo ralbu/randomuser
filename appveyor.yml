@@ -22,3 +22,10 @@ before_build:
 nuget:
   account_feed: true
   project_feed: true
+
+deploy:
+  provider: NuGet
+  api_key:
+    secure: 65DMGVnniyCfcu6cf50N//7QAj2SHmWkkx4zpeatI42x7UHeTApWDJDEUQPcFlzf
+  skip_symbols: false
+  artifact: /.*\.nupkg/
