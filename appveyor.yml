@@ -15,7 +15,7 @@ configuration: Release
 
 build_script:
   - ps: dotnet --info
-  - ps: dotnet restore
+  #- ps: dotnet restore
   - ps: dotnet build
   - ps: dotnet test .\RandomUserTtest
   - ps: dotnet pack -o .\artifacts\
