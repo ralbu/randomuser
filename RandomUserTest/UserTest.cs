@@ -36,20 +36,20 @@ namespace RandomUserTest
 
             Assert.Equal("female", user.Gender);
 
-            Assert.Equal("1969 elgin st", user.Location.Street);
-            Assert.Equal("frederick", user.Location.City);
-            Assert.Equal("delaware", user.Location.State);
-            Assert.Equal("56298", user.Location.Zip);
+            Assert.Equal("Ullevålsveien", user.Location.Street.Name);
+            Assert.Equal("Tomra", user.Location.City);
+            Assert.Equal("Buskerud", user.Location.State);
+            Assert.Equal("3726", user.Location.Postcode);
 
             Assert.Equal("lois.williams50@example.com", user.Email);
-            Assert.Equal("heavybutterfly920", user.Username);
-            Assert.Equal("enterprise", user.Password);
-            Assert.Equal(">egEn6YsO", user.Salt);
-            Assert.Equal("2dd1894ea9d19bf5479992da95713a3a", user.Md5);
-            Assert.Equal("ba230bc400723f470b68e9609ab7d0e6cf123b59", user.Sha1);
-            Assert.Equal("f4f52bf8c5ad7fc759d1d4156b25a4c7b3d1e2eec6c92d80e508aa0b7946d4ba", user.Sha256);
-            Assert.Equal("1288182167", user.Registered);
-            Assert.Equal("146582153", user.Dob);
+            Assert.Equal("heavybutterfly920", user.Login.UserName);
+            Assert.Equal("republic", user.Login.Password);
+            Assert.Equal("1cnb5GHy", user.Login.Salt);
+            Assert.Equal("cbe55c7cfa3f9029e7e374ca5434ba48", user.Login.Md5);
+            Assert.Equal("93f1b4fc33cdb148529239c94d18a97a625b11d2", user.Login.Sha1);
+            Assert.Equal("c2b2b3d19a9c0f78231cc5172b73525d3b45341a7cd2b62b004f32e1292b7571", user.Login.Sha256);
+            Assert.Equal(10, user.Registered.Age);
+            Assert.Equal(60, user.Dob.Age);
             Assert.Equal("(555)-942-1322", user.Phone);
             Assert.Equal("(178)-341-1520", user.Cell);
             Assert.Equal("137-37-8866", user.Ssn);
