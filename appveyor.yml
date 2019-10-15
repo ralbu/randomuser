@@ -1,27 +1,37 @@
-version: 0.9.{build}
+version: 1.0.{build}
 
-assembly_info:
+dotnet_csproj:
   patch: true
-  file: AssemblyInfo.cs
+  file: '**\*.csproj'
+  version: '{version}'
+  package_version: '{version}'
   assembly_version: '{version}'
-  assembly_file_version: '{version}'
-  assembly_informational_version: '{version}'
+  file_version: '{version}'
+  informational_version: '{version}'
 
 platform: Any CPU
 
 configuration: Release
 
-build:
-  project: RandomUser.sln
-  verbosity: detailed
-  publish_nuget: true
+build_script:
+  - ps: dotnet --info
+  - ps: dotnet restore
+  - ps: dotnet build
+#  - ps: dotnet test .\xunit2.should.test
+#  - ps: dotnet pack -o .\artifacts\
 
-before_build:
-  - nuget restore
+#nuget:
+ # account_feed: true
+  #project_feed: true
+  #disable_publish_on_pr: true
 
-nuget:
-  account_feed: true
-  project_feed: true
+artifacts:
+  - path: randomuser\artifacts\*.nupkg
+    name: NuGet
+
+branches:
+  only:
+    - master
 
 deploy:
   provider: NuGet
