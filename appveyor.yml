@@ -17,13 +17,13 @@ build_script:
   - ps: dotnet --info
   - ps: dotnet restore
   - ps: dotnet build
-#  - ps: dotnet test .\xunit2.should.test
-#  - ps: dotnet pack -o .\artifacts\
+  - ps: dotnet test .\RandomUserTtest
+  - ps: dotnet pack -o .\artifacts\
 
-#nuget:
- # account_feed: true
-  #project_feed: true
-  #disable_publish_on_pr: true
+nuget:
+  account_feed: true
+  project_feed: true
+  disable_publish_on_pr: true
 
 artifacts:
   - path: randomuser\artifacts\*.nupkg

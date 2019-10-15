@@ -1,6 +1,8 @@
 using System;
+using System.Runtime.CompilerServices;
 using Newtonsoft.Json;
 
+[assembly:InternalsVisibleTo("RandomUserTest")]
 namespace RandomUser.Models
 {
     public class User
