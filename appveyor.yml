@@ -20,10 +20,10 @@ build_script:
   - ps: dotnet test .\RandomUserTtest
   - ps: dotnet pack -o .\artifacts\
 
-nuget:
-  account_feed: true
-  project_feed: true
-  disable_publish_on_pr: true
+#nuget:
+ # account_feed: true
+#  project_feed: true
+#  disable_publish_on_pr: true
 
 artifacts:
   - path: randomuser\artifacts\*.nupkg
